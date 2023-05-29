@@ -1,60 +1,16 @@
-* {
-	margin:  0px;
-	padding:  0px;
-	box-sizing: border-box;
+#birthday-question {
+  display: none; /* 초기에 숨김 */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
 }
 
-/* adjusting fonts */
-
-body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	transition: background 500ms ease;
+#birthday-question button {
+  margin: 5px;
+  padding: 10px 20px;
 }
-
-p, li {
-	font-size:  22px;
-	line-height: 30px;
-}
-
-/* adjusting spacing */
-
-#left-column {
-	padding: 20px;
-}
-
-h1, p {
-	margin-bottom:  20px;
-}
-
-ul, ol {
-	margin-left: 20px;
-}
-
-img {
-	max-width: 100%;
-	height:  auto;
-}
-
-/* uncomment the code below to set the grid */
-
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-body {
-	overflow: hidden;
-}
-
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
-}
-
-#left-column {
-}
-
-#right-column {
-	background: #333;
-}*/
